@@ -35,7 +35,7 @@ const About = () => {
               </p>
             </div>
             <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              <a href='/'>
+              <a href='./Shamil ramazanov coach.pdf' download=''>
                 Contact me
               </a>
             </button>
