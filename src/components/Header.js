@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 // import components
 import Nav from '../components/Nav';
-import NavMobile from '../components/NavMobile';
+//import NavMobile from '../components/NavMobile';
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -30,8 +30,8 @@ const Header = () => {
         </div>
 
         {/* nav mobile*/}
-        <div className='lg:hidden'>
-          <NavMobile />
+        <div >
+          {/* <NavMobile /> */}
         </div>
       </div>
     </header>
